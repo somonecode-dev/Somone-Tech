@@ -33,8 +33,9 @@ Cette application web moderne et responsive a été conçue pour présenter les 
 
 ---
 
-## 📂 Structure du Projet
+## 📁 Structure du projet
 
+```text
 somonetech/
 ├── public/
 ├── src/
@@ -63,6 +64,7 @@ somonetech/
 ├── postcss.config.js
 ├── README.md
 └── tailwind.config.js
+```
 
 ---
 
