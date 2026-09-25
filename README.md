@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 🚀 SOMONE.TECH - Landing Page Institutionnelle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![SOMONE.TECH Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Available Scripts
+Bienvenue sur le dépôt officiel de la landing page de **SOMONE.TECH - Innovation Lab**. 
 
-In the project directory, you can run:
+Cette application web moderne et responsive a été conçue pour présenter les services technologiques, la vitrine d'expertise et les canaux de contact de l'entreprise avec une expérience utilisateur (UX) fluide et épurée.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Aperçu & Fonctionnalités
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **⚡ Performance & Fluidité :** Développé avec React.js pour un affichage dynamique et rapide.
+- **🎨 Design Minimaliste & Sombre :** Palette de couleurs sur mesure (`#323946` / `#2a303c`) offrant un contraste équilibré et un confort visuel optimal.
+- **📱 100% Responsive :** Adaptation parfaite sur mobile, tablette et écran desktop.
+- **🗺️ Navigation Intuitive :**
+  - **Hero Section :** Présentation d'impact avec Call-To-Action principal.
+  - **Services :** Grille interactive présentant l'éventail des solutions proposées.
+  - **Avis / Témoignages :** Preuve sociale dynamique renforçant la crédibilité.
+  - **Contact & Localisation :** Formulaire de contact fonctionnel et informations d'accès.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Stack Technique
 
-### `npm run build`
+- **Frontend :** React.js
+- **Styling :** Tailwind CSS + PostCSS
+- **Icons :** Lucide React / React Icons
+- **Gestionnaire de paquets :** npm
+- **Version Control :** Git & GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Structure du Projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+somonetech/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Contact/
+│   │   │   ├── Contact.jsx
+│   │   │   └── Form.jsx
+│   │   ├── Home/
+│   │   │   ├── Hero.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   └── Testimonials.jsx
+│   │   └── Services/
+│   │       ├── Card.jsx
+│   │       └── Services.jsx
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+└── tailwind.config.js
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Installation & Lancement en Local
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pour exécuter le projet sur votre machine locale :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Cloner le dépôt :
+   git clone https://github.com/somonecode-dev/Somone-Tech.git
+   cd Somone-Tech
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Installer les dépendances :
+   npm install
 
-## Learn More
+3. Lancer le serveur de développement :
+   npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Ouvrez votre navigateur sur http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📄 Licence & Droits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2026 SOMONE.TECH - Innovation Lab. Tous droits réservés.  
+Développé par Souleymane Ba (https://github.com/somonecode-dev).
