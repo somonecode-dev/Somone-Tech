@@ -91,7 +91,7 @@ export default function Hero() {
                   <span className="text-purple-400">const</span> project = <span className="text-green-400">'Somone Tech'</span>;
                 </div>
                 <div className="p-3 rounded-lg bg-slate-950/80 border border-slate-800 text-slate-300">
-                  <p className="text-slate-500">// Modules actifs</p>
+                  <p className="text-slate-500">{"// Modules actifs"}</p>
                   <p className="text-cyan-400">→ Application Web & PWA</p>
                   <p className="text-cyan-400">→ Solutions Cloud & Backend</p>
                   <p className="text-cyan-400">→ Modèles IA & Automatisation</p>
