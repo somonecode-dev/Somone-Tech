@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-export default function Services() {
+export default function ServicesComponent() {
   const servicesList = [
     {
       id: 1,

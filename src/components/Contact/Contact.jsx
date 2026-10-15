@@ -64,7 +64,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-xs font-semibold uppercase text-slate-400 tracking-wider">Téléphone</h4>
-                  <p className="text-white font-medium text-sm mt-0.5">+221 77 000 00 00</p>
+                  <p className="text-white font-medium text-sm mt-0.5">+221 77 555 55 55</p>
                 </div>
               </div>
 
@@ -91,10 +91,6 @@ export default function Contact() {
 
         </div>
       </div>
-      {/* Ligne de copyright basique tout en bas du composant Contact */}
-       <div className="mt-12 pt-6 pb-2 border-t border-slate-700/50 text-center text-xs text-slate-400">
-         <p>© {new Date().getFullYear()} SOMONE.TECH - Innovation Lab. Tous droits réservés.</p>
-       </div>
     </section>
   );
 }

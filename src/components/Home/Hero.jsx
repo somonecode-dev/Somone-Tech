@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   return (
@@ -35,22 +36,22 @@ export default function Hero() {
 
             {/* Boutons d'action */}
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
-              <a
-                href="#services"
+              <Link
+                to="/services"
                 className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-sky-400 to-blue-600 hover:from-sky-500 hover:to-blue-700 transition-all shadow-lg shadow-sky-500/20 flex items-center justify-center gap-2 group"
               >
                 Explorer nos services
                 <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                 </svg>
-              </a>
+              </Link>
 
-              <a
-                href="#contact"
+              <Link
+                to="/contact"
                 className="w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-slate-200 bg-slate-800/60 hover:bg-slate-800 border border-slate-700/80 transition-all text-center"
               >
                 Demander un devis
-              </a>
+              </Link>
             </div>
 
             {/* Indicateurs clés (KPIs) */}

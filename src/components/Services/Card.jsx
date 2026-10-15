@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Card({ title, description, icon, features, badge, isPopular }) {
   return (
@@ -50,15 +51,15 @@ export default function Card({ title, description, icon, features, badge, isPopu
 
       {/* Action */}
       <div className="pt-8 mt-6 border-t border-slate-700/40">
-        <a
-          href="#contact"
+        <Link
+          to="/contact"
           className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 group-hover:text-white transition-colors"
         >
           En savoir plus
           <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );
