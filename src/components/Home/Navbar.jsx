@@ -1,8 +1,7 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 export default function Navbar({ isAuthenticated, setIsAuthenticated }) {
-  const [activeSection, setActiveSection] = useState('accueil');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // Ajout de la section "Avis" dans le menu
@@ -11,39 +10,6 @@ export default function Navbar({ isAuthenticated, setIsAuthenticated }) {
     { path: '/services', label: 'Services' },
     { path: '/témoignages', label: 'Avis' },
   ];
-
-  // Gestion du ScrollSpy (détection de la section au défilement)
-  useEffect(() => {
-    const handleScroll = () => {
-      // Inclusion de 'testimonials' dans la détection au scroll
-      const allSections = ['accueil', 'services', 'testimonials', 'contact'].map((id) =>
-        document.getElementById(id)
-      );
-      const scrollPosition = window.scrollY + 200;
-
-      allSections.forEach((section) => {
-        if (section) {
-          const sectionTop = section.offsetTop;
-          const sectionHeight = section.offsetHeight;
-
-          if (
-            scrollPosition >= sectionTop &&
-            scrollPosition < sectionTop + sectionHeight
-          ) {
-            setActiveSection(section.id);
-          }
-        }
-      });
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const handleNavClick = (id) => {
-    setActiveSection(id);
-    setIsMobileMenuOpen(false);
-  };
 
   return (
     <header className="sticky top-0 z-50 bg-[#323946]/95 backdrop-blur-md border-b border-slate-700/50">
@@ -127,7 +93,7 @@ export default function Navbar({ isAuthenticated, setIsAuthenticated }) {
             </svg>
           </NavLink>
 
-          {/* SWITCH DE CONNEXION (BOLEEN SIMULATION) */}
+          {/* SWITCH DE CONNEXION (BOOLEEN SIMULATION) */}
           <div className="flex items-center gap-2 pl-4 border-l border-slate-700/60">
             <button
               onClick={() => setIsAuthenticated(!isAuthenticated)}
